@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'Helvetica';
+    src: url('Helvetica.ttf') format('truetype');
+}
+
+.sidebar {
+    display: flex;
+    justify-content: center;
+  }
+  
+.menu {
+background-color: #f2f2f2;
+border-radius: 10px;
+width: 400px; /* Adjust the width as desired */
+padding: 20px;
+}
+
+.menu {
+    padding: 20px;
+}
+
+.menu-header {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.menu-item {
+    margin-bottom: 10px;
+}
+
+.select-all {
+    margin: 5px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.menu-item-header {
+    font-weight: bold;
+}
+
+.menu-item-content {
+    margin-top: 5px;
+}
+
+.main-content {
+    padding: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin: 5px;
+}
+
+.file {
+    display: flex;
+    align-items: center;
+}
+
+.file-checkbox {
+    margin-right: 5px;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Space Data</title>
+    <link rel="stylesheet" href="assesment.css">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="menu">
+            <div class="menu-header">
+                SPACE DATA
+            </div>
+            <div class="menu-body">
+                <div class="menu-item">
+                    <i class="fa-solid fa-stopwatch"></i>
+                    <div class="time">
+                        Time
+                    </div>
+                    <div class="num">
+                        2.2215
+                    </div>
+                </div>
+                <div class="select-all-container">
+                    <div class="select-all">
+                        <input type="checkbox" id="select-all-checkbox" onclick="selectAllFiles()">
+                        <label for="select-all-checkbox">Select all</label>
+                    </div>
+                </div>
+                <div class="file-list-container">
+                    <ul id="file-list-content"></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="data.json"></script>
+    <script src="assesment.js"></script>
+</body>
+</html>
