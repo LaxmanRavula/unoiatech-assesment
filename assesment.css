@@ -28,6 +28,12 @@ padding: 20px;
     margin-bottom: 10px;
 }
 
+.time {
+    background-color: darkseagreen;
+    padding: 8px;
+    margin-bottom: 12px;
+}
+
 .select-all {
     margin: 5px;
     font-size: 18px;
